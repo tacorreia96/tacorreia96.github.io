@@ -1,0 +1,45 @@
+body{
+    color: gray;
+    background-color: #f4f4f0;
+}
+
+p{
+    border-style: dashed;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;
+    padding: 20px;
+}
+
+h1{
+    color: maroon;
+    font-family: 'Lora', serif;
+    letter-spacing: 0.1em;
+}
+
+a.button:link {
+    color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    background-color: floralwhite;
+    padding: 10px;
+    position: relative;
+    bottom: 19px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.button:active{
+    color: blue;
+}
+
+a.button:visited{
+    color: maroon;
+    border: 1px solid salmon;
+    background-color: lightsalmon;
+}
+
+a.button:hover{
+    color: yellow;
+    border:  1px solid yellow;
+    background-color: gold
+}

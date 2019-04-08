@@ -1,0 +1,28 @@
+
+        body{
+            font-family: Arial;
+            background-color: #17E4F1;}
+        h1 {
+            color: #CBCBCB;
+            background-color: #750B0C;
+            padding: 20px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            font-family: 'Cinzel', serif;}
+        p {padding-left: 20px;
+            padding-right: 20px;
+            line-height: 1.6em;
+            font-family: "Courier New", Courier, monospace;}
+a:link {
+    color: darkgreen;
+    text-decoration: none;}
+a:visited {
+    color: darkorange;}
+a:hover {
+    color:blue;
+    text-decoration: underline;}
+a:active {
+    color:crimson;}
+h2 { color: silver;
+    background-color: #750B0C;
+padding: 10px;}
