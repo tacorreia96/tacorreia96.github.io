@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title> Thomas Correia's Writing Samples Page </title>
+    <link href="writingsamples.css" type="text/css" rel="stylesheet"/>
+   <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    
+    <style> 
+    .dropbtn{
+        background-color: teal;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: solid black 1px;  
+        width: 250px;
+        font-family: 'Crimson Text', serif;
+        font-size: 25px;
+    }
+    .dropdown{
+        position: relative;
+        display: inline-block
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: lightseagreen;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        width: 250px;
+        font-size: 25px;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        display: block;
+    }
+    .dropdown-content a:hover {background-color: black;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+    .dropdown:hover .dropbtn {background-color: teal;}
+    
+    .one { border: 1px;
+        border-radius: 15px;
+        border-style: solid;
+        padding: 10px;
+        grid-area: one;
+        }   
+     .two { border: 1px;
+        border-radius: 15px;
+        border-style: solid;
+        padding: 10px;
+        grid-area: two;
+        } 
+     .three { border: 1px;
+        border-radius: 15px;
+        border-style: solid;
+        padding: 10px;
+        grid-area: three;
+        } 
+     .four { border: 1px;
+        border-radius: 15px;
+        border-style: solid;
+        padding: 10px;
+        grid-area: four;
+        } 
+        .gridwrapper{
+    color: black;
+    text-align: left;
+    font-size: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 10px;
+    grid-template-areas:
+        "one two three four"
+        }
+    </style>
+    
+</head>
+
+        <body>
+        
+            <header><div class=headerimg><h1><br>Writing Samples</h1></div>
+            
+               <!-- header image source: https://www.pexels.com/photo/pile-of-assorted-novel-books-694740/ -->
+                
+            </header>
+              <div class="dropdown">
+                <button class="dropbtn">Navigation</button>
+                <div class="dropdown-content">
+        
+        
+        
+            <a href="index.html"> Home </a>
+            <a href="aboutme.html">About Me</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html">Contact</a>
+             </div>
+            </div>
+            
+            <article>
+                <div class="gridwrapper">
+                <div class="one">
+                <p><a class="button" href="exercises/pdf/grantproposal.pdf">Grant Proposal for Taunton High School BJJ Program (PDF)</a><br>
+                    This 18 page grant proposal is a request for $23,000 from <a href="https://www.wallacefoundation.org/pages/default.aspx">The Wallace Foundation</a> for the implementation of a free after-school Brazilian Jiu Jitsu Program in the Taunton Public School System and located in Taunton High School.</p>
+                </div>
+                
+                <div class="two">
+                <p><a class="button" href="exercises/pdf/Democracy%20vs%20Communism.pdf">Democracy vs Communism (PDF)</a><br>     This 6 page paper is a comparative analysis of the two competeing theorys, presented by philosophers Karl Marx and Alexis de Tocqueville, concerning the system under which modern society operates and the forces which drive it. this analysis favors the Tocquevillian conception of modern society.</p>
+                </div>
+                
+                <div class="three">
+                <p><a class="button" href="exercises/pdf/Affirmative%20Action-%20A%20Necessary%20Remedy,%20A%20Troubled%20System%20.pdf">Affirmative Action: A Necessary Remedy, A Troubled System (PDF)</a><br>
+                    This 17 page paper takes an indepth look at the affirmitve action policy in the United States; arguements from both proponents and combatants of affirmative action, the history of affirmative action's implementation domestic and abroad, the process by which racial groups are created and who is included in them, and practical alternatives to affirmative action.</p>
+                </div>
+                
+                <div class="four">
+                <p><a class="button" href="https://www.umass.edu/history/sites/default/files/assets/history/umass_amherst_undergraduate_history_journal_spring_2018.pdf">Jefferson's Equality Inconsistencies, Undergraduate History Journal Univeristy of Massachusetts Amherst, Volume Two, Spring 2018. Pages 31-36 (online)</a><br>
+                    This 6 page essay examines how Thomas Jefferson's own work, accounts from his family, and several sources concerning his relationship with notions of slavery and equality, show the inconsistencies in Jefferson's ideas about equality. This can be solved by classifying them into two spheres: the political and personal. Although it was useful to classify his paradoxes into two spheres of thought, it became evident that the contradictions were not absolutely confined to them. Even within the spheres of the political and personal, Jefferson's ideas and actions concerning equality were not consistent.</p>
+                </div>
+                </div>
+        </article>
+            <footer>&copy; Copyright 2019. All rights reserved to Thomas Correia.</footer>
+        </body>
+        
+        
+        
+</html>
